@@ -242,8 +242,8 @@ class WinLFT:
         Mouse.click(point)
 
 
-w= WinLFT()
-w.Enter()
+#w= WinLFT()
+#w.Enter()
 # w.Click("appModel.cASPERStandAloneWindow().workListUiObject()")
 # w.EnterText("appModel.hPEMyFlightSampleApplicationWindow().agentNameEditField()","john")
 # w
