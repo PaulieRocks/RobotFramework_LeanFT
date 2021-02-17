@@ -8,7 +8,7 @@ This is a Robot Framework library implementaion to interface with UFT14's LeanFT
 
 # Installation Instructions
 
-Step 1: Java 8.191 SE DK – software center (MI01E)
+Step 1: Install Java 8.191 SE JDK 
 Step 2: Install HP UFT - ( Only V 14+ is currently supported)
 Step 3: Jython -   https://www.jython.org/download.html    -  jython-installer-2.7.2
 Step 4: Downloaded IntelliJ - Community (2017.1 windows zip edition)
