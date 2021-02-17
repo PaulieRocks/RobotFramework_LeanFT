@@ -9,17 +9,23 @@ This is a Robot Framework library implementaion to interface with UFT14's LeanFT
 # Installation Instructions
 
 Step 1: Install Java 8.191 SE JDK 
+
 Step 2: Install HP UFT - ( Only V 14+ is currently supported)
+
 Step 3: Jython -   https://www.jython.org/download.html    -  jython-installer-2.7.2
+
 Step 4: Downloaded IntelliJ - Community (2017.1 windows zip edition)
 https://www.jetbrains.com/idea/download/other.html
+
 Step 5: Navigate to <UFT Home>\HPE\Unified Functional Testing\IDE\IntelliJ\plugins and copy leanFT folder
 aste it inside the unzipped IntelliJ folder<IntelliJ Home>\plugins (Sometimes this folder would be created under ‘Users’)
 In most cases, the below navigation would work as these are standard home folders: 
 Navigate to C:\Program Files (x86)\HPE\Unified Functional Testing\IDE\IntelliJ\plugins—and copy leanFT folder
 Paste it inside the unzipped IntelliJ folder C:\Program Files\JetBrains\IntelliJ IDEA Community Edition\plugins (Sometimes this folder would be created under ‘Users’)
+	
 Step 6:
 Install Robot Framework (jython -m pip install robotframework)
+
 Step 7:
 
 In Windows 10
