@@ -76,6 +76,10 @@ Step 9:
 
 (5) All the objects in the jar are now available for robot keywords.
 
+(6) USe the documentation file "WinLFT_Documentation.html" available within this repo for the keywords available. 
+
+
+
 Rock On !!
 
 	
