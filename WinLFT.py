@@ -137,7 +137,7 @@ class WinLFT:
         target= self._scrambler(self.appModel,window)
         target.minimize()
 
-    def MinimizeWindow(self, window):
+    def MaximizeWindow(self, window):
 
         """ Minimizes the specified Window passed as parameter"""
 
