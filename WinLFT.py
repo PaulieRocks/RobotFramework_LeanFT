@@ -242,31 +242,4 @@ class WinLFT:
         Mouse.click(point)
 
 
-#w= WinLFT()
-#w.Enter()
-# w.Click("appModel.cASPERStandAloneWindow().workListUiObject()")
-# w.EnterText("appModel.hPEMyFlightSampleApplicationWindow().agentNameEditField()","john")
-# w
-# w.EnterText("appModel.cASPERStandAloneWindow().thunderRT6TextBoxUiObject()", "123")
-# w.Click("appModel.cASPERStandAloneWindow().oKUiObject()")
-# w.killLFT()
-# str="cASPERStandAloneWindow"
-# list=dir(w.appModel)
-# for i in list:
-#     if i=="cASPERStandAloneWindow":
-#         print(i)
-# method_to_call=getattr(w.appModel,str)
-# x=method_to_call()
-# method_to_call=getattr(x,"oKUiObject")
 
-# print(dir(x.oKUiObject().click()))
-# y="appModel.cASPERStandAloneWindow().oKUiObject()"
-# x=w.y
-# x.click()
-# x="cASPERStandAloneWindow"
-# print(dir(w.appModel.cASPERStandAloneWindow()))
-# w.funccall(w.appModel,"appModel.cASPERStandAloneWindow.oKUiObject")
-# w.appModel.cASPERStandAloneWindow()
-# print(dir(getattr(w.appModel.cASPERStandAloneWindow(),"oKUiObject")))
-# w.appModel.cASPERStandAloneWindow().oKUiObject()
-# print("Closing out")
