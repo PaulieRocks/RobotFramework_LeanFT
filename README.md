@@ -65,12 +65,16 @@ Step 9:
 
 # Usage Instructions
 
-(1) Create a LEanFT Application Model project in itelliJ. This is will act as shared repository of all the application objects. For steps, refer the below URL and follow instructions for intelliJ Idea
+(1) Create a LEanFT Application Model project in itelliJ. For thid library to work. It is important that the application model is always created in the package "com.company.ApplicationModel". 
+
+This is will act as shared repository of all the application objects. For steps, refer the below URL and follow instructions for intelliJ Idea
 
        https://admhelp.microfocus.com/uftdev/en/15.0-15.0.2/HelpCenter/Content/HowTo/TestObjects_AppModel.htm#mt-item-1
   
  Note: The solution in its current state only supports one object model i.e. all objects on the AUT should be spied into one app model project intellij. The below URL has some tips on how large app models could be managed 
+ 
   	https://admhelp.microfocus.com/uftdev/en/15.0-15.0.2/HelpCenter/Content/HowTo/TestObjects_AppModel.htm#mt-item-5
+	
    
 (2) Once the objects are all spied, create a jar for the project as a class 
 
