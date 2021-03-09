@@ -18,9 +18,11 @@ Step 4: Downloaded IntelliJ - Community (2017.1 windows zip edition)
 https://www.jetbrains.com/idea/download/other.html
 
 Step 5: Navigate to <UFT Home>\HPE\Unified Functional Testing\IDE\IntelliJ\plugins and copy leanFT folder
-aste it inside the unzipped IntelliJ folder<IntelliJ Home>\plugins (Sometimes this folder would be created under ‘Users’)
+Paste it inside the unzipped IntelliJ folder<IntelliJ Home>\plugins (Sometimes this folder would be created under ‘Users’)
+	
 In most cases, the below navigation would work as these are standard home folders: 
 Navigate to C:\Program Files (x86)\HPE\Unified Functional Testing\IDE\IntelliJ\plugins—and copy leanFT folder
+
 Paste it inside the unzipped IntelliJ folder C:\Program Files\JetBrains\IntelliJ IDEA Community Edition\plugins (Sometimes this folder would be created under ‘Users’)
 	
 Step 6:
@@ -30,6 +32,7 @@ Step 7:
 
 In Windows 10
 Click Start and type “Environment” now click on “Edit Environment System Variables”
+
 Select PATH and Click Edit button under System variables and add below paths
 
 C:\jython2.7.2
@@ -66,7 +69,8 @@ Step 9:
 
           https://admhelp.microfocus.com/uftdev/en/15.0-15.0.2/HelpCenter/Content/HowTo/TestObjects_AppModel.htm#mt-item-1
   
-  Note: The solution in its current state only supports one object i.e. all objects should be spied into one app model project intellij
+ Note: The solution in its current state only supports one object model i.e. all objects on the AUT should be spied into one app model project intellij. The below URL has some tips on how large app models could be managed 
+  	https://admhelp.microfocus.com/uftdev/en/15.0-15.0.2/HelpCenter/Content/HowTo/TestObjects_AppModel.htm#mt-item-5
    
 (2) Once the objects are all spied, create a jar for the project as a class 
 
