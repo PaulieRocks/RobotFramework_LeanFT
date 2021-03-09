@@ -20,7 +20,7 @@ class WinLFT:
 
     ROBOT_LIBRARY_SCOPE = 'TEST SUITE'
 
-    """ Library for Interacting with Web Applications using LeanFT (UFT14+) as Web Driver. The User is Expected to have the LeanFT Application Model Project handy. """
+    """ Library for Interacting with Web Applications using LeanFT (UFT14+) as  Driver. The User is Expected to have the LeanFT Application Model Project handy. """
 
     def __init__(self):
 
