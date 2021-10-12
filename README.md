@@ -1,6 +1,8 @@
 # RobotFramework_LeanFT
 
-This is a Robot Framework library implementaion to interface with UFT14's LeanFT Runtime, using the standard LeanFT SDK. Solution Components: 
+This is a Robot Framework library implementaion to interface with UFT's LeanFT Runtime, using the standard LeanFT SDK.
+
+Solution Components: 
 
       * LeanFT
       * LeanFT Java SDK
@@ -11,27 +13,39 @@ This is a Robot Framework library implementaion to interface with UFT14's LeanFT
 
 Step 1: Install Java 8.191 SE JDK 
 
-Step 2: Install HP UFT - ( Only V 14+ is currently supported)
+Step 2: Install HP UFT - ( Only V 12+ is currently supported)
+	Installation Instructions should be available with the respective enterprise support team.
 
-Step 3: Jython -   https://www.jython.org/download.html    -  jython-installer-2.7.2
+Step 3: Install Jython -   
+	https://www.jython.org/download.html    -  jython-installer-2.7.2
 
-Step 4: Downloaded IntelliJ - Community (2017.1 windows zip edition)
-https://www.jetbrains.com/idea/download/other.html
+Step 4: Download IntelliJ - Community (2017.1 windows zip edition)
+
+	https://www.jetbrains.com/idea/download/other.html
+	
+	Unzip and use the idea.exe within the /bin folder for launching the IDE.
+	
+	It is advisable to create a shortcut for easier launch
 
 Step 5: Navigate to <UFT Home>\HPE\Unified Functional Testing\IDE\IntelliJ\plugins and copy leanFT folder
-Paste it inside the unzipped IntelliJ folder<IntelliJ Home>\plugins (Sometimes this folder would be created under ‘Users’)
 	
-In most cases, the below navigation would work as these are standard home folders: 
+Paste this folder inside the (unzipped from Step 4) IntelliJ folder: <IntelliJ Home>\plugins (Sometimes this folder would be created under ‘Users’)
+	
+In most cases, the below instruction should suffice as these are standard home folders for UFT : 
+	
 Navigate to C:\Program Files (x86)\HPE\Unified Functional Testing\IDE\IntelliJ\plugins—and copy leanFT folder
 
-Paste it inside the unzipped IntelliJ folder C:\Program Files\JetBrains\IntelliJ IDEA Community Edition\plugins (Sometimes this folder would be created under ‘Users’)
+Paste it inside the unzipped IntelliJ folder
 	
 Step 6:
-Install Robot Framework (jython -m pip install robotframework)
+	
+Install Robot Framework:
+	(jython -m pip install robotframework)
 
 Step 7:
 
 In Windows 10
+	
 Click Start and type “Environment” now click on “Edit Environment System Variables”
 
 Select PATH and Click Edit button under System variables and add below paths
@@ -56,17 +70,18 @@ For standard installations the following should work
 
 Step 8: 
 
-  Download the WinLFT Library and place it within JYTHONPATH.
+  Download the WinLFT Library ( from this repo) and place it within JYTHONPATH.
   
 Step 9: 
   
-  Update the relevant plugins to support python for intellij
+  Update the relevant plugins to support python for intellij 
+	
   Update the relevant plugins to support robot framework for intellij
 
 
 # Usage Instructions
 
-(1) Create a LEanFT Application Model project in itelliJ. For thid library to work. It is important that the application model is always created in the package "com.company.ApplicationModel". 
+(1) Create a LEanFT Application Model project in IntelliJ. For this library to work,it is important that the application model is always created in the package "com.company.ApplicationModel". 
 
 This is will act as shared repository of all the application objects. For steps, refer the below URL and follow instructions for intelliJ Idea
 
@@ -85,7 +100,7 @@ This is will act as shared repository of all the application objects. For steps,
 
 (5) All the objects in the jar are now available for robot keywords.
 
-(6) USe the documentation file "WinLFT_Documentation.html" available within this repo for the keywords available. 
+(6) Use the documentation file "WinLFT_Documentation.html" available within this repo for the keywords available. 
 
 
 
