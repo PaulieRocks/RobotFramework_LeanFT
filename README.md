@@ -11,15 +11,15 @@ Solution Components:
 
 # Installation Instructions
 
-Step 1: Install Java 8.191 SE JDK 
+**Step 1**: Install Java 8.191 SE JDK 
 
-Step 2: Install HP UFT - ( Only V 12+ is currently supported)
+**Step 2**: Install HP UFT - ( Only V 12+ is currently supported)
 	Installation Instructions should be available with the respective enterprise support team.
 
-Step 3: Install Jython -   
+**Step 3**: Install Jython -   
 	https://www.jython.org/download.html    -  jython-installer-2.7.2
 
-Step 4: Download IntelliJ - Community (2017.1 windows zip edition)
+**Step 4**: Download IntelliJ - Community (2017.1 windows zip edition)
 
 	https://www.jetbrains.com/idea/download/other.html
 	
@@ -27,7 +27,7 @@ Step 4: Download IntelliJ - Community (2017.1 windows zip edition)
 	
 	It is advisable to create a shortcut for easier launch
 
-Step 5: Navigate to <UFT Home>\HPE\Unified Functional Testing\IDE\IntelliJ\plugins and copy leanFT folder
+**Step 5**: Navigate to <UFT Home>\HPE\Unified Functional Testing\IDE\IntelliJ\plugins and copy leanFT folder
 	
 Paste this folder inside the (unzipped from Step 4) IntelliJ folder: <IntelliJ Home>\plugins (Sometimes this folder would be created under ‘Users’)
 	
@@ -37,12 +37,12 @@ Navigate to C:\Program Files (x86)\HPE\Unified Functional Testing\IDE\IntelliJ\p
 
 Paste it inside the unzipped IntelliJ folder
 	
-Step 6:
+**Step 6:**
 	
 Install Robot Framework:
 	(jython -m pip install robotframework)
 
-Step 7:
+**Step 7:**
 
 In Windows 10
 	
@@ -68,11 +68,11 @@ For standard installations the following should work
 
 “C:\Program Files (x86)\HPE\Unified Functional Testing”
 
-Step 8: 
+**Step 8:** 
 
   Download the WinLFT Library ( from this repo) and place it within JYTHONPATH.
   
-Step 9: 
+**Step 9: **
   
   Update the relevant plugins to support python for intellij 
 	
@@ -81,7 +81,7 @@ Step 9:
 
 # Usage Instructions
 
-(1) Create a LEanFT Application Model project in IntelliJ. For this library to work,it is important that the application model is always created in the package "com.company.ApplicationModel". 
+**(1)** Create a LEanFT Application Model project in IntelliJ. For this library to work,it is important that the application model is always created in the package "com.company.ApplicationModel". 
 
 This is will act as shared repository of all the application objects. For steps, refer the below URL and follow instructions for intelliJ Idea
 
@@ -92,15 +92,15 @@ This is will act as shared repository of all the application objects. For steps,
   	https://admhelp.microfocus.com/uftdev/en/15.0-15.0.2/HelpCenter/Content/HowTo/TestObjects_AppModel.htm#mt-item-5
 	
    
-(2) Once the objects are all spied, create a jar for the project as a class 
+**(2)** Once the objects are all spied, create a jar for the project as a class 
 
-(3) Create  a new python project and select the interpreter as Jython
+**(3)** Create  a new python project and select the interpreter as Jython
 
-(4) Import the jar from (2) as dependency. 
+**(4)** Import the jar from (2) as dependency. 
 
-(5) All the objects in the jar are now available for robot keywords.
+**(5) **All the objects in the jar are now available for robot keywords.
 
-(6) Use the documentation file "WinLFT_Documentation.html" available within this repo for the keywords available. 
+**(6)** Use the documentation file "WinLFT_Documentation.html" available within this repo for the keywords available. 
 
 
 
