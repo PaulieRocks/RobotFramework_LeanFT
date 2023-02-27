@@ -102,7 +102,7 @@ This is will act as shared repository of all the application objects. For steps,
 
 **(6)** Use the documentation file "WinLFT_Documentation.html" available within this repo for the keywords available. 
 
-If you do like to send some Love, Send a 'Like' on:
+P.S.: If you do like to send some Love, Send a 'Like' on:\n
 https://www.linkedin.com/posts/paulierox_github-paulierocksrobotframeworkleanft-activity-6852711747711856640-VuWD
 
 
